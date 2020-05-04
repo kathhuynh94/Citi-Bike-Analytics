@@ -1,0 +1,20 @@
+Citi Bike Trip Data Analysis
+
+My analysis consists of looking at the most popular starting and ending stations to see if there's any trends and why there is. I'll be breaking down some trip duration and usage phenomena. My data is based on a span of three months (May, June, July) to see if ridership has increased in the summer. I used jupyter notebook to clean and concatenate my data into one csv file, import it into tableau, and created my visualizations.
+
+
+Popular Start and End Stations Analysis
+
+The most popular start and end stations are Grove St Path and Hamilton Park consecutively. They have the higest count of users starting/ending their trip at these locations. Our top 10 most popular start/end stations are due to the stations being closer together. They all revolve around Grove St Path and it seems to be the most used station as it is in the center of all the other stations. We also need to account where a user last drops their bike off will be the starting station for the next user in our data. If we can see the type of businesses that are around the most popular stations or have a section the user can input as their reason for riding today, that would help the city officials to find a way to increase ridership in areas and possibly open up more bike locations. 
+
+
+Phenomena 1 & 2: Age, Gender, Subscriber, and Customer Trip Duration
+
+The trip duration for customers and subscribers show one major phenomena. Those who are subscribers (regardless of age and gender) use the more bikes with a shorter trip time. Customers use a smaller amount of bikes but average longer trips. The reason for that could be the amount of tourists that vist in New York and the subscribers are residents who use it as exercise or to run errands based on the businesses that are located near the bike station locations. Female subscribers average a trip duration of 10-12 minutes, while the male subscribers average 8-9 minutes.Those who inputted "other" as their gender average about 30-40 minutes. I did not include this data in the main table as I do not know the reasons for users not identifying their gender, but added it to the bar chart as it is still a significant portion of users that need to be accounted for. However, male subscribers still make up a majority of bike users (especially those in their 30s-40s). Female ridership could be lower due to bike weight, exercise preferences, safety issues, and convenient station locations. Having those issues addressed or finding the main concerns for low female ridership could help improve the usage for that demographic.
+
+Surprisingly, the spikes in age on the line chart show an interesting phenomena for those in their 50s and 70s. Users in their late 20's and early 30's take the most and longest trips as expected. 50 year olds actually have the second highest and longest number of trips. There is a sharp increase in total customers for that age group. For individuals in their 50s, 70s, and past 100 years old, it appears that they are outliers. This is an issue for the citi bike program as there could be potential issues for these customers or user input that could greatly affect the data.
+
+
+Phenomena 3: Trip Summary by Month and Hour 
+
+In my data set, there were a total of 119,311 trips from May 2019 - July 2019. Total trips taken has a steady increase as you look further into the summer months. Peak hours for bike usage seem to be in the early mornings around 8AM and peak again around 6PM during the summer. Taking a quick glance at the winter data that is not visualized in my dashboard, the increase in total trips follow the same pattern during the winter months too. Is it the weather that is contributing to the peak times? If so, does the city need to install some type of shade during the routes? Are there more riders during the summer and winter due to students having more time as they are on break from school? Again, city officials can improve bike usage by looking at the reasons for the peak seasons and hours of use to answer these questions. 
